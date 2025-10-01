@@ -1,0 +1,64 @@
+{
+  "site": {
+    "logo": "Atsuhiro Shirakaki",
+    "nav": {
+      "projects": "Projects",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "intro": {
+      "title": "Atsuhiro Shirakaki\nPortfolio",
+      "subtitle": "A student Game Developer with multiple published games",
+      "cta": "Continue"
+    },
+    "fractured-reverie": {
+      "title": "Fractured Reverie (PC, Steam)",
+      "overview": "Overview: A psychological horror game with a branching storyline. You play as Ray, a six-year-old who wakes in his bedroom, sensing something off. After his mother gives him medicine, he awakens in a hospital—and each time he falls asleep in one place, he wakes up in the other. The loop repeats as you investigate what’s real and uncover the truth.",
+      "team": "Team: Solo Developer",
+      "period": "Development Period: ~1 year",
+      "playtime": "Estimated Playtime: ~2 hours",
+      "systems": "Key Systems: Branching narrative built with ScriptableObjects; physics-based item interaction (pick up/inspect) via raycasts and constraints",
+      "revenue": "Revenue: TBA",
+      "cta_repo": "View in GitHub",
+      "cta_dl": "Download"
+    },
+    "fruits-bomber": {
+      "title": "Fruits Bomber (Android)",
+      "overview": "Overview: Casual drag-and-drop puzzler for kids",
+      "team": "Team: Solo Developer",
+      "period": "Development Period: ~1 year",
+      "playtime": "Estimated Playtime: Few Minutes",
+      "systems": "Key Systems: ",
+      "cta_repo": "View in GitHub",
+      "cta_dl": "Download"
+    },
+    "ubcroid": {
+      "title": "UBCRoid",
+      "overview": "Overview: ",
+      "team": "Team: 4 People",
+      "period": "Development Period: 4 Month",
+      "playtime": "Estimated Playtime: 10 Minutes",
+      "systems": "Key Systems: ",
+      "cta_repo": "View in GitHub",
+      "cta_play": "Play"
+    },
+    "fly-through": {
+      "title": "Fly Through",
+      "overview": "Overview: ",
+      "team": "Team: Solo Developer",
+      "period": "Development Period: ",
+      "playtime": "Estimated Playtime: 2 Minutes",
+      "systems": "Key Systems: ",
+      "cta_repo": "View in GitHub"
+    },
+    "footer": {
+      "phone": "Phone",
+      "email": "Email",
+      "social": "Social"
+    },
+    "lang": {
+      "en": "English",
+      "ja": "Japanese"
+    }
+  }
+}

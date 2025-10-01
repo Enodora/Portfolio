@@ -1,0 +1,64 @@
+{
+  "site": {
+    "logo": "しらかき　あつひろ",
+    "nav": {
+      "projects": "プロジェクト",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "intro": {
+      "title": "白柿　有啓\nポートフォリオ",
+      "subtitle": "ゲーム開発者",
+      "cta": "続ける"
+    },
+    "fractured-reverie": {
+      "title": "砕幻 (PC、 Steam)",
+      "overview": "概要： 分岐型ストーリーを備えた心理ホラー。プレイヤーは6歳の少年 レイ。自室で目覚めるたびに違和感を覚え、母親に薬を飲まされた後は病院で目を覚ます――どちらかで眠ると、次はもう一方で目覚めるというループを繰り返しながら、何が現実なのかを探っていきます。",
+      "team": "開発体制： 個人開発",
+      "period": "開発期間： 約1年 ",
+      "playtime": "想定プレイ時間： 約2時間",
+      "systems": "主要システム： ScriptableObject による分岐ナラティブ設計／レイキャストと拘束を用いた物理ベースのアイテム操作（拾う・観察）",
+      "revenue": "収益： 未定",
+      "cta_repo": "GitHub で見る",
+      "cta_dl": "ダウンロード"
+    },
+    "fruits-bomber": {
+      "title": "Fruits Bomber (Android)",
+      "overview": "概要： ",
+      "team": "開発体制： 個人開発",
+      "period": "開発期間： 約1年 ",
+      "playtime": "想定プレイ時間： 一回数分",
+      "systems": "主要システム： ",
+      "cta_repo": "GitHub で見る",
+      "cta_dl": "ダウンロード"
+    },
+    "ubcroid": {
+      "title": "UBCRoid",
+      "overview": "概要： ",
+      "team": "開発体制： 4人",
+      "period": "開発期間： 4ヵ月",
+      "playtime": "想定プレイ時間： 10分",
+      "systems": "主要システム： ",
+      "cta_repo": "GitHub で見る",
+      "cta_play": "遊ぶ"
+    },
+    "fly-through": {
+      "title": "Fly Through",
+      "overview": "概要： ",
+      "team": "開発体制： 個人開発",
+      "period": "開発期間： 4ヵ月",
+      "playtime": "想定プレイ時間： 2分",
+      "systems": "主要システム： ",
+      "cta_repo": "GitHub で見る"
+    },
+    "footer": {
+      "phone": "電話",
+      "email": "メール",
+      "social": "SNS"
+    },
+    "lang": {
+      "en": "英語",
+      "ja": "日本語"
+    }
+  }
+}
