@@ -14,6 +14,7 @@
     "fractured-reverie": {
       "title": "Fractured Reverie (PC, Steam)",
       "overview": "Overview: A psychological horror game with a branching storyline. You play as Ray, a six-year-old who wakes in his bedroom, sensing something off. After his mother gives him medicine, he awakens in a hospital—and each time he falls asleep in one place, he wakes up in the other. The loop repeats as you investigate what’s real and uncover the truth.",
+      "tool": "Tools: Unity C#",
       "team": "Team: Solo Developer",
       "period": "Development Period: ~1 year",
       "playtime": "Estimated Playtime: ~2 hours",
@@ -24,31 +25,39 @@
     },
     "fruits-bomber": {
       "title": "Fruits Bomber (Android)",
-      "overview": "Overview: Casual drag-and-drop puzzler for kids",
+      "overview": "Overview: A bright and approachable Android puzzler where kids drag and drop to sort colorful fruits. Short levels, clear goals, and soft haptic/audio cues build confidence, while adaptive difficulty keeps the challenge just right. Crafted for touch, it’s easy to pick up, safe for kids, and perfect for quick learning-through-play moments.",
+      "tool": "Tools: Unity C#",
       "team": "Team: Solo Developer",
-      "period": "Development Period: ~1 year",
+      "period": "Development Period: 6 Month",
       "playtime": "Estimated Playtime: Few Minutes",
-      "systems": "Key Systems: ",
+      "systems": "Key Systems: Drag-and-drop sorting with magnetic snap and reliable collision checks, combined with a four-direction fruit spawner/shooter that feeds lane-based trajectories.",
       "cta_repo": "View in GitHub",
       "cta_dl": "Download"
     },
     "ubcroid": {
       "title": "UBCRoid",
-      "overview": "Overview: ",
+      "overview": "Overview: An outer-space, short-session arcade shooter where monsters swarm the screen and you push forward with quick, accurate gunplay. Survive, adapt, and chart a path through the unknown without getting taken down. A school project at UBC for CPSC 427.",
+      "tool": "Tools: C++",
       "team": "Team: 4 People",
       "period": "Development Period: 4 Month",
       "playtime": "Estimated Playtime: 10 Minutes",
-      "systems": "Key Systems: ",
+      "systems": "Key Systems: A* pathfinding for select enemies to navigate dynamic obstacles; decision-tree AI for readable, tunable behavior logic; a custom AABB collision and response pipeline for fast, deterministic hits; and physics-driven character behaviors that translate directly into responsive, skill-based combat.",
       "cta_repo": "View in GitHub",
       "cta_play": "Play"
     },
     "fly-through": {
       "title": "Fly Through",
       "overview": "Overview: ",
+      "tool": "Tools: Unity C#",
       "team": "Team: Solo Developer",
       "period": "Development Period: ",
       "playtime": "Estimated Playtime: 2 Minutes",
       "systems": "Key Systems: ",
+      "cta_repo": "View in GitHub"
+    },
+    "forest-escape": {
+      "title": "Forest Escape",
+      "overview": "Overview: ",
       "cta_repo": "View in GitHub"
     },
     "footer": {
