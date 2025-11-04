@@ -47,17 +47,12 @@
     },
     "fly-through": {
       "title": "Fly Through",
-      "overview": "Overview: ",
-      "tool": "Tools: Unity C#",
-      "team": "Team: Solo Developer",
-      "period": "Development Period: ",
-      "playtime": "Estimated Playtime: 2 Minutes",
-      "systems": "Key Systems: ",
+      "overview": "Overview: A level-based 3D mobile game where you pilot a spaceship through obstacle-packed courses, warping between areas via portals. Mechanics like inverted controls and other devious gimmicks test quick reactions and precise piloting. Short stages and instant retries keep you chasing higher scores and faster times.",
       "cta_repo": "View in GitHub"
     },
     "forest-escape": {
       "title": "Forest Escape",
-      "overview": "Overview: ",
+      "overview": "Overview: A prototype for a 2.5D puzzle game. Built around side-on play with depth shifts and perspective tricks that create spatial puzzles. Push-blocks, switches, and synchronized/unsynchronized platforms enable varied solutions from minimal inputs. Short stages and instant retries keep iteration fast and satisfying.",
       "cta_repo": "View in GitHub"
     },
     "footer": {
