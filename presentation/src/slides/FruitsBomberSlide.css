@@ -1,0 +1,31 @@
+.fruits-bomber-slide {
+  text-align: center;
+}
+
+.slide-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #E60012;
+  margin-bottom: 32px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.slide-content {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.image-section {
+  margin-bottom: 32px;
+}
+
+.gameplay-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.video-section {
+  margin-top: 40px;
+}

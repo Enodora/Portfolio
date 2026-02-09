@@ -1,0 +1,33 @@
+.project-meta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.meta-label {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
+.meta-value {
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .project-meta {
+    grid-template-columns: 1fr;
+  }
+}

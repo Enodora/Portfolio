@@ -1,0 +1,35 @@
+.navigation {
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 16px;
+  z-index: 1000;
+}
+
+.nav-button {
+  width: 56px;
+  height: 56px;
+  border: 2px solid #E60012;
+  background-color: white;
+  color: #E60012;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-button:hover:not(:disabled) {
+  background-color: #E60012;
+  color: white;
+}
+
+.nav-button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}

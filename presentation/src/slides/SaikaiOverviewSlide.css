@@ -1,0 +1,48 @@
+.saikai-overview-slide {
+  text-align: center;
+}
+
+.slide-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #E60012;
+  margin-bottom: 32px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.slide-content {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.image-section {
+  margin-bottom: 32px;
+}
+
+.title-logo {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.overview-section {
+  margin-top: 32px;
+  text-align: left;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overview-text {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .overview-text {
+    font-size: 16px;
+  }
+}

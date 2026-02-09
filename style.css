@@ -109,3 +109,38 @@ ul li {
     margin-bottom: 2.25rem;
     /* tweak 1.5–3rem to taste */
 }
+
+/* Presentation link in header */
+#header .presentation-link {
+    -moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease;
+    -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease;
+    -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease;
+    transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease;
+    pointer-events: auto;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 2px !important;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+#header .presentation-link:hover {
+    border-color: #18bfef !important;
+    color: #18bfef !important;
+}
+
+@media screen and (max-width: 736px) {
+    #header .presentation-link {
+        font-size: 0.75rem;
+        border-width: 2px !important;
+        padding: 0.4rem 0.8rem;
+    }
+}

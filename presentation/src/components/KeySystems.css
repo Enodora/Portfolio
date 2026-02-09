@@ -1,0 +1,40 @@
+.key-systems {
+  margin: 32px 0;
+  text-align: left;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.systems-title {
+  font-size: 24px;
+  color: #E60012;
+  margin-bottom: 16px;
+  font-weight: 700;
+  border-bottom: 2px solid #E60012;
+  padding-bottom: 8px;
+}
+
+.systems-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.system-item {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 12px;
+  padding-left: 24px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.system-item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #E60012;
+  font-size: 24px;
+  line-height: 1;
+}

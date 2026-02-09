@@ -1,0 +1,51 @@
+.intro-slide {
+  text-align: center;
+}
+
+.intro-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #E60012;
+  margin-bottom: 48px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  max-width: 600px;
+}
+
+.intro-section {
+  text-align: left;
+}
+
+.intro-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 12px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.intro-text {
+  font-size: 20px;
+  color: #666;
+  line-height: 1.6;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .intro-title {
+    font-size: 36px;
+  }
+  
+  .intro-heading {
+    font-size: 24px;
+  }
+  
+  .intro-text {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,95 @@
+.closing-slide {
+  text-align: center;
+}
+
+.closing-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #E60012;
+  margin-bottom: 48px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.closing-content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  max-width: 600px;
+}
+
+.contact-section,
+.social-section {
+  text-align: left;
+}
+
+.contact-heading,
+.social-heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #E60012;
+  margin-bottom: 16px;
+  font-family: 'Noto Sans JP', sans-serif;
+  border-bottom: 2px solid #E60012;
+  padding-bottom: 8px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-item {
+  font-size: 18px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.contact-label {
+  font-weight: 500;
+  color: #666;
+}
+
+.contact-link {
+  color: #E60012;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.contact-link:hover {
+  opacity: 0.8;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.social-link {
+  font-size: 18px;
+  color: #E60012;
+  text-decoration: none;
+  padding: 8px 0;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.social-link:hover {
+  border-bottom-color: #E60012;
+}
+
+@media (max-width: 768px) {
+  .closing-title {
+    font-size: 36px;
+  }
+  
+  .contact-item,
+  .social-link {
+    font-size: 16px;
+  }
+}

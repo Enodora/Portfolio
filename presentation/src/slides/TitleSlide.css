@@ -1,0 +1,28 @@
+.title-slide {
+  text-align: center;
+}
+
+.title-name {
+  font-size: 64px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 24px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.title-subtitle {
+  font-size: 32px;
+  font-weight: 500;
+  color: #E60012;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .title-name {
+    font-size: 48px;
+  }
+  
+  .title-subtitle {
+    font-size: 24px;
+  }
+}

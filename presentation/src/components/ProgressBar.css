@@ -1,0 +1,25 @@
+.progress-bar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #f0f0f0;
+  z-index: 1000;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #E60012;
+  transition: width 0.3s ease;
+}
+
+.slide-counter {
+  position: fixed;
+  top: 12px;
+  right: 24px;
+  font-size: 14px;
+  color: #666;
+  font-family: 'Noto Sans JP', sans-serif;
+  z-index: 1001;
+}
