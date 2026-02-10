@@ -3,6 +3,7 @@ import UBCRoidSlide from './slides/UBCRoidSlide'
 import FruitsBomberSlide from './slides/FruitsBomberSlide'
 import SaikaiOverviewSlide from './slides/SaikaiOverviewSlide'
 import SaikaiSystemsSlide from './slides/SaikaiSystemsSlide'
+import MontageSlide from './slides/MontageSlide'
 import ClosingSlide from './slides/ClosingSlide'
 
 const slides = [
@@ -11,6 +12,7 @@ const slides = [
   FruitsBomberSlide,
   SaikaiOverviewSlide,
   SaikaiSystemsSlide,
+  MontageSlide,
   ClosingSlide,
 ]
 

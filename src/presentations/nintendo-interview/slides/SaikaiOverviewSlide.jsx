@@ -21,25 +21,29 @@ export default function SaikaiOverviewSlide() {
         砕幻
       </motion.h2>
       <motion.div
-        className="w-full max-w-6xl flex flex-row gap-8 items-start"
+        className="w-full max-w-6xl grid grid-cols-2 gap-6"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
       >
-        <div className="flex-1 relative flex flex-col items-center">
+        <div className="text-center">
+          <ProjectMeta tool="Unity C#" team="個人開発" period="約1年" playtime="約2時間" />
+        </div>
+        <div className="flex items-center justify-center">
           <img
-            src="/presentation-images/Fracutred Reverie Title_Logo.png"
-            alt="砕幻 Title Logo"
-            className="max-w-full max-h-64 h-auto object-contain drop-shadow-2xl relative z-0 -mb-8"
+            src="/presentation-images/Fractured Reverie Horror.png"
+            alt="Fractured Reverie Horror"
+            className="max-w-full max-h-[35vh] h-auto object-contain rounded-xl shadow-2xl shadow-black/20 border border-dark-border"
           />
+        </div>
+        <div className="flex items-center justify-center">
           <img
             src="/presentation-images/Fractured Reverie Gameplay screenshot.png"
             alt="Fractured Reverie Gameplay"
-            className="max-w-full max-h-[40vh] h-auto object-contain rounded-xl shadow-2xl shadow-black/20 border border-dark-border relative z-10"
+            className="max-w-full max-h-[35vh] h-auto object-contain rounded-xl shadow-2xl shadow-black/20 border border-dark-border"
           />
         </div>
-        <div className="flex-1 text-left">
-          <ProjectMeta tool="Unity C#" team="個人開発" period="約1年" playtime="約2時間" />
+        <div className="flex items-center justify-center text-center">
           <KeySystems systems={systems} />
         </div>
       </motion.div>

@@ -6,7 +6,6 @@ import { motion } from 'framer-motion'
 export default function UBCRoidSlide() {
   const systems = [
     '動的障害物対応A*探索アルゴリズム',
-    '決定木AI',
     '自作AABBコリジョン基盤',
     '物理ベースキャラクター挙動',
     'スキル重視の戦闘',
